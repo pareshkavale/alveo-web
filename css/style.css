@@ -1156,18 +1156,18 @@ h6 {
   margin: 0 auto;
 }
 
-/*=====================
-          Career Page Content css 
-            ======================*/
+/*=================================
+      Career Page Content css 
+  ===============================*/
 
 .career-page-content p {
   font-size: 20px;
   line-height: 38px;
 }
 
-/*=====================
+/*====================================
           life Page Content css 
-            ======================*/
+======================================*/
 .as-life-content p {
   font-size: 20px;
   line-height: 30px;
@@ -1177,9 +1177,9 @@ h6 {
   margin-bottom: 15px;
 }
 
-/*=====================
-          Technology Page Content css 
-            ======================*/
+/*============================
+    Technology Page Content css 
+==============================*/
 
 .tech-block {
   border: 1px solid #e2e2e2;
@@ -1215,9 +1215,9 @@ h6 {
   padding: 20px;
 }
 
-/*=====================
-          Call To Action Area css 
-            ======================*/
+/*==============================
+    Call To Action Area css 
+  =============================*/
 
 .call-to-action {
   position: relative;
@@ -1254,9 +1254,9 @@ h6 {
 
 
 
-/*=====================
-          Contact Page css 
-            ======================*/
+/*===============================
+          Contact Page css
+================================*/
 
 .contact-form {
   position: relative;
@@ -1480,6 +1480,8 @@ h6 {
 
 
 
+
+
 /* Small phones (portrait) */
 @media only screen and (max-width: 480px) {
   .header-contact {
@@ -1523,10 +1525,6 @@ h6 {
   .page-content p {
     font-size: 17px;
     line-height: 24px;
-  }
-
-  .about-image {
-    margin-bottom: 15px;
   }
 
   .mission-statement-block .content p {
@@ -1583,6 +1581,10 @@ h6 {
     font-size: 100px !important;
   }
 
+  .testimonial-slide-area {
+    padding: 18px;
+  }
+
   .testimonial-inner-box p {
     font-size: 17px;
     line-height: 24px;
@@ -1618,7 +1620,19 @@ h6 {
 }
 
 /* Tablets (portrait) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .as-about-area .abt-back h1 {
+    font-size: 160px;
+  }
+
+  .widget {
+    margin-bottom: 25px;
+  }
+
+  .call-to-action {
+    padding: 55px 0px;
+  }
+}
 
 /* Tablets (landscape) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}

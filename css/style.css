@@ -101,18 +101,20 @@ input {
   text-shadow: none;
 }
 
-button:focus{
+button:focus {
   outline: none;
   box-shadow: none;
   transition: all 500ms ease;
 }
+
 .form-control:focus,
 .form-select:focus,
 textarea:focus {
-    box-shadow: none;
-    border-color: var(--bs-primary) !important;
-    outline: none;
+  box-shadow: none;
+  border-color: var(--bs-primary) !important;
+  outline: none;
 }
+
 p {
   position: relative;
   margin-bottom: 10px;
@@ -336,10 +338,11 @@ h6 {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
 .preload_text {
   position: relative;
   display: inline-block;
-  font-size: 32px;
+  font-size: 30px;
   color: #d4d4d4;
 }
 
@@ -357,14 +360,17 @@ h6 {
   50% {
     width: 100%;
   }
+
   100% {
     width: 0%;
   }
 }
+
 .pre-loader.hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 /*================================
     Back To Top Button Css 
  =================================*/
@@ -1183,27 +1189,31 @@ h6 {
   margin-bottom: 25px;
   overflow: hidden;
 }
+
 .tech-block-img {
   display: flex;
   justify-content: center;
   padding: 15px 0px;
 }
+
 .tech-block-content {
   padding: 15px;
   background-color: #ffff;
 }
+
 .tech-block-content h5 {
   font-size: 22px;
   margin-bottom: 5px;
 }
+
 .tech-block-content p {
   font-size: 17px;
   margin-bottom: 0;
 }
 
 
-.team-card{
-  padding:20px;
+.team-card {
+  padding: 20px;
 }
 
 /*=====================
@@ -1326,9 +1336,9 @@ h6 {
 }
 
 
-/*=====================
+/*=================================
           Footer Area css 
-            ======================*/
+  =================================*/
 
 .as-main-footer {
   background-color: #000000;
@@ -1569,11 +1579,13 @@ h6 {
   .contact-box {
     margin-bottom: 25px;
   }
-  .abt-back h1{
-    font-size: 100px;
+
+  .abt-back h1 {
+    font-size: 100px !important;
   }
-  .call-to-action{
-    padding:55px 0px;
+
+  .call-to-action {
+    padding: 55px 0px;
   }
 }
 
@@ -1584,7 +1596,7 @@ h6 {
   }
 
   .about-content p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
   }
 }

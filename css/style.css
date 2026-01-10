@@ -1572,6 +1572,9 @@ h6 {
   .abt-back h1{
     font-size: 100px;
   }
+  .call-to-action{
+    padding:55px 0px;
+  }
 }
 
 /* Small phones (landscape) */

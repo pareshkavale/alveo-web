@@ -782,6 +782,7 @@ h6 {
 
 .service-box:hover {
   transform: translateY(-10px);
+  border-top: 4px solid var(--bs-primary);
 }
 
 .service-box:hover .service-icon::after {
@@ -923,7 +924,7 @@ h6 {
 }
 
 .testimonial-inner-box {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .testimonial-inner-box p {
@@ -949,9 +950,8 @@ h6 {
 .swiper-slider-area .swiper-button-pre {
   color: #fff;
   display: inline-block;
-  font-size: 21px;
+  font-size: 20px;
   left: 0;
-  margin-top: 9px;
   width: 40px;
   height: 40px;
   background: var(--bs-primary);
@@ -998,9 +998,9 @@ h6 {
 }
 
 .testimonial-slide-area {
-  padding: 40px;
+  padding: 25px;
   border: 1px solid #e2e2e2;
-  border-radius: 30px;
+  border-radius: 12px;
 }
 
 .client-info h4 {
@@ -1090,7 +1090,6 @@ h6 {
   content: "";
   width: 8px;
   height: 2px;
-  border-radius: 50%;
   position: absolute;
   left: 0;
   top: 50%;
@@ -1396,7 +1395,7 @@ h6 {
 }
 
 .quick-link-list li+li {
-  margin-top: 10px;
+  margin-top: 11px;
 }
 
 .quick-link-list li a {
@@ -1584,8 +1583,21 @@ h6 {
     font-size: 100px !important;
   }
 
+  .testimonial-inner-box p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
   .call-to-action {
     padding: 55px 0px;
+  }
+
+  .breadcrumb-area .breadcrumb-inner h1 {
+    font-size: 30px;
+  }
+
+  .breadcrumb-list li {
+    font-size: 16px;
   }
 }
 
@@ -1598,6 +1610,10 @@ h6 {
   .about-content p {
     font-size: 17px;
     line-height: 24px;
+  }
+
+  .as-about-area .abt-back h1 {
+    font-size: 140px;
   }
 }
 

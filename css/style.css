@@ -1509,7 +1509,7 @@ h6 {
 
   .section-heading .section-title {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: 0px;
   }
 
@@ -1523,8 +1523,8 @@ h6 {
   }
 
   .page-content p {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   .mission-statement-block .content p {

@@ -628,11 +628,11 @@ h6 {
   z-index: 999;
   opacity: 1;
   visibility: visible;
-  -ms-animation-name: fadeIn;
-  -moz-animation-name: fadeIn;
-  -op-animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -ms-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -op-animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
   -ms-animation-duration: 200ms;
   -moz-animation-duration: 200ms;
   -op-animation-duration: 200ms;
@@ -752,7 +752,7 @@ h6 {
   border: 1px solid #e8eaed;
   padding: 35px 25px;
   background-color: #fff;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   transition: 0.3s ease-in-out;
 }
 
@@ -1164,7 +1164,13 @@ h6 {
   line-height: 30px;
 }
 
-
+.gallary-image img{
+   filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+.gallary-image img:hover{
+   filter: grayscale(0%);
+}
 /*============================
     Technology Page Content css 
 ==============================*/
@@ -1592,11 +1598,11 @@ h6 {
 
   .footer-top-content,
   .contact-links {
-    padding: 30px 0;
+    padding: 20px 0;
   }
 
   .contact-box {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .abt-back h1 {

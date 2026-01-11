@@ -69,6 +69,8 @@ $(function () {
         once: true,
         mirror: false,
     });
+
+    new WOW().init();
 });
 
 // ==========================

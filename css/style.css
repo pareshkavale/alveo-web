@@ -57,7 +57,7 @@ body {
 }
 
 body {
-  color: #040201;
+  color: #282828;
   font-family: "Outfit", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -1156,15 +1156,6 @@ h6 {
   margin: 0 auto;
 }
 
-/*=================================
-      Career Page Content css 
-  ===============================*/
-
-.career-page-content p {
-  font-size: 20px;
-  line-height: 38px;
-}
-
 /*====================================
           life Page Content css 
 ======================================*/
@@ -1173,9 +1164,6 @@ h6 {
   line-height: 30px;
 }
 
-.gallary-image {
-  margin-bottom: 15px;
-}
 
 /*============================
     Technology Page Content css 
@@ -1210,9 +1198,43 @@ h6 {
   margin-bottom: 0;
 }
 
-
+/*=====================
+          Team Page css 
+            ======================*/
 .team-card {
-  padding: 20px;
+  border-radius: 10px;
+  background: var(--background-color-2);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid var(--border-basic-color);
+  margin-bottom: 20px;
+}
+
+.team-img {
+  position: relative;
+  max-width: 180px;
+  max-height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 10px;
+  transition: all 0.5s ease;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.20);
+}
+
+.team-img img {
+  border-radius: 50%;
+  transition: all ease-in-out;
+}
+
+.team-desc {
+  position: relative;
+}
+
+.team-desc h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 /*==============================
@@ -1528,8 +1550,8 @@ h6 {
   }
 
   .mission-statement-block .content p {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .mission-statement-block {
@@ -1546,18 +1568,18 @@ h6 {
   }
 
   .as-banner-area .banner-content p {
-    font-size: 17px;
-    line-height: 22px;
-  }
-
-  .about-content p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 24px;
   }
 
+  .about-content p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
   .service-box .service-content p {
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .about-thumbnail {
@@ -1586,8 +1608,8 @@ h6 {
   }
 
   .testimonial-inner-box p {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .call-to-action {
@@ -1600,6 +1622,10 @@ h6 {
 
   .breadcrumb-list li {
     font-size: 16px;
+  }
+
+  .call-to-action .title-box .title {
+    font-size: 30px;
   }
 }
 

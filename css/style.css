@@ -241,7 +241,7 @@ h6 {
   border: 1px solid #222429;
   width: 105%;
   height: 185%;
-  transform: translateX(90%) rotate(25deg);
+  transform: translateX(85%) rotate(25deg);
   transition: .4s;
 }
 
@@ -287,7 +287,7 @@ h6 {
   border: 1px solid #222429;
   width: 105%;
   height: 185%;
-  transform: translateX(90%) rotate(25deg);
+  transform: translateX(85%) rotate(25deg);
   transition: .4s;
 }
 
@@ -339,30 +339,37 @@ h6 {
   justify-content: center;
 }
 
-.preload_text {
-  position: relative;
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
   display: inline-block;
-  font-size: 30px;
-  color: #d4d4d4;
+  border-top: 4px solid #568f92;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
 }
 
-.preload_text::before {
-  content: attr(data-text);
+.loader::after {
+  content: '';
+  box-sizing: border-box;
   position: absolute;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  color: var(--bs-primary);
-  animation: fill-1 2s infinite;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-bottom: 4px solid var(--bs-primary);
+  border-left: 4px solid transparent;
 }
 
-@keyframes fill-1 {
-  50% {
-    width: 100%;
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
   }
 
   100% {
-    width: 0%;
+    transform: rotate(360deg);
   }
 }
 
@@ -568,6 +575,11 @@ h6 {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.side-menu .navigation li>a.active {
+  color: var(--bs-primary);
+  font-weight: 600;
 }
 
 .side-menu .navigation li:hover>a,
@@ -1164,13 +1176,15 @@ h6 {
   line-height: 30px;
 }
 
-.gallary-image img{
-   filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
+.gallary-image img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
 }
-.gallary-image img:hover{
-   filter: grayscale(0%);
+
+.gallary-image img:hover {
+  filter: grayscale(0%);
 }
+
 /*============================
     Technology Page Content css 
 ==============================*/
@@ -1598,7 +1612,7 @@ h6 {
 
   .footer-top-content,
   .contact-links {
-    padding: 20px 0;
+    padding: 30px 0;
   }
 
   .contact-box {

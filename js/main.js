@@ -81,8 +81,8 @@ $(window).on("load", function () {
 
     $preloader.addClass("hidden");
 
-    // Remove preloader after transition delay
+    
     setTimeout(function () {
         $preloader.remove();
-    }, 50000); // matches CSS transition
+    }, 50000); 
 });

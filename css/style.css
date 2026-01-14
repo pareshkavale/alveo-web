@@ -840,24 +840,10 @@ h6 {
 .service-box:hover .number {
   color: var(--bs-primary);
 }
-
-.more-about-link {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: normal;
-  width: 38px;
-  height: 38px;
-  color: var(--secondary);
-  background: #ffffff;
+.service-box:hover .service-content a{
+  color:var(--bs-primary);
 }
 
-.service-box:hover .more-about-link {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.25);
-  background-color: var(--bs-primary);
-  color: #fff;
-}
 
 
 /*=====================
